@@ -14,13 +14,20 @@
 
   <body background="img.jpg">
       <center>
-      <h1 class="btn btn-info heading">Object Detection</h1>
+      <h1 class="btn btn-info heading">Object Detection
+        <br>
+        <span style="color:black; font-size:13px;">The Input name given by you should match with the name present in COCO Model</span>
+      </h1>
       <br><br>
       <div class="form-group"></div>
       <input type="text" class="form-control" id="object_name">
       <br><br>
       <button onclick="start()" class="btn btn-success">Start</button>
+      <br>
       <h3 id="status" class="btn btn-danger"></h3>
+      <br>
+      <h3 id="objectStatus" class="btn btn-warning"></h3>
+      
       </center>
       <script src="main.js"></script>
       </body>
